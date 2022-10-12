@@ -1,1 +1,54 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+/*
+    Azul: #2317FA
+    Roxo: #A037F0
+    Amarelo: #EBE74D
+*/
+
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #7e2cbd;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.267);
+    overflow: hidden;
+}
+
+#imagem {
+    background: #7e2cbd url(../imagens/fundo-folhas.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    display: block;
+}
+
+#formulario {
+    padding: 10px;
+    display: block;
+}
