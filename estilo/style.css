@@ -4,8 +4,8 @@
 
 /*
     Azul: #2317FA
-    Roxo: #A037F0
-    Amarelo: #EBE74D
+    Roxo: #69279c
+    Laranja: #ff8800
 */
 
 * {
@@ -16,7 +16,7 @@
 }
 
 body, html {
-    background-color: #7e2cbd;
+    background-color: #69279c;
     width: 100vw;
     height: 100vh;
 }
@@ -34,15 +34,18 @@ main {
     transform: translate(-50%, -50%);
 
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 280px;
+    height: 540px;
     border-radius: 10px;
-    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.267);
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.425);
     overflow: hidden;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 #imagem {
-    background: #7e2cbd url(../imagens/fundo-folhas.jpg) no-repeat;
+    background: #69279c url(../imagens/fundo-folhas.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     display: block;
