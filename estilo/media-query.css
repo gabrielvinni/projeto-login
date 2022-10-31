@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1365px){
     body {
-        background-image: linear-gradient(to top, #ff880067, #69279c);
+        background-image: linear-gradient(to top, #ff8800, #69279c);
     }
 
     #login {
@@ -21,13 +21,17 @@
         float: right;
         width: 70%;
     }
+
+    #formulario > p {
+        font-size: 1.3em;
+    }
 }
 
 @media screen and (min-width: 1365px){
     body {
         background: linear-gradient(to bottom, #69279c, #ff880067, #ff8800, #ffee00);
         background-size: 300% 300%;
-        animation: fundo-animado 5s infinite alternate;
+        animation: fundo-animado 5s infinite alternate ease-in-out;
     }
 
     #login {
@@ -42,6 +46,10 @@
 
     #formulario {
         width: 50%;
+    }
+
+    #formulario > p {
+        font-size: 1.3em;
     }
 
     @keyframes fundo-animado {
