@@ -35,7 +35,7 @@ main {
 
     background-color: white;
     width: 280px;
-    height: 540px;
+    height: 515px;
     border-radius: 10px;
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.425);
     overflow: hidden;
@@ -58,4 +58,48 @@ main {
 
 #formulario > h1 {
     margin-bottom: 10px;
+}
+
+div.campo {
+    background-color: #69279c;
+    border-radius: 7px;
+    height: 40px;
+    margin: 5px 0px;
+}
+
+form > input[type=submit] {
+    background-color: #ffae00;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 18px;
+    border: 1px solid #ffae00;
+    transition: .2s;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form > input[type=submit]:hover {
+    background-color: #dd9700;
+    border-color: #dd9700;
+}
+
+form > a.botao {
+    display: block;
+    width: 100%;
+    border: 1px solid #ffae00;
+    text-align: center;
+    padding: 8px;
+    border-radius: 18px;
+    margin: 10px 0px 8px 0px;
+    text-decoration: none;
+    color: #ffae00;
+    transition: 0.2s;
+}
+
+form > a.botao:hover {
+    background-color: #ffc750;
+    border-color: #ffc750;
+    color: white;
 }
