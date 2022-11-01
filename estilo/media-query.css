@@ -2,13 +2,14 @@
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1365px){
+@media screen and (min-width: 768px) and (max-width: 1365px){  /* Configuração para tablet */
     body {
         background-image: linear-gradient(to top, #ff8800, #69279c);
     }
 
     #login {
         width: 80vw;
+        height: 320px;
     }
 
     #imagem {
@@ -27,7 +28,7 @@
     }
 }
 
-@media screen and (min-width: 1365px){
+@media screen and (min-width: 1365px){ /* configuração para desktop */
     body {
         background: linear-gradient(to bottom, #69279c, #ff880067, #ff8800, #ffee00);
         background-size: 300% 300%;
@@ -36,6 +37,7 @@
 
     #login {
         width: 990px;
+        height: 365px;
     }
 
     #imagem {
@@ -50,6 +52,11 @@
 
     #formulario > p {
         font-size: 1.3em;
+        margin-bottom: 40px;
+    }
+
+    form > input[type=submit] {
+        margin-top: 40px;
     }
 
     @keyframes fundo-animado {
